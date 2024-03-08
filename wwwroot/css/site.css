@@ -1,0 +1,17 @@
+body {
+    background: #fcfcfc;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    flex-grow: 1;
+    background: red;
+}
+
+footer {
+    /* Чтобы footer не уменьшался */
+    flex-shrink: 0;
+    background: black;
+}
